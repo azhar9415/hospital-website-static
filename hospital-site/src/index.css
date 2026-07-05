@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #2A3371;
+  --color-secondary: #4C63A8;
+  --color-accent: #C4B191;
+  --color-accent-light: #F2E8D5;
+  
+  /* Neutral & Backgrounds */
+  --color-site-bg: #F7F9FC;
+  --color-surface: #FFFFFF;
+  --color-site-border: #DCE4F2;
+  
+  /* Typography */
+  --color-heading: #1B1B1B;
+  --color-body: #555555;
+  --color-footer: #1F285D;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjust this to match your navbar height */
+}
