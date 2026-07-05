@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import hospitalImg from './assets/hospital.jpeg'; 
+import hospitalImg from './assets/Hospital.jpeg'; 
 import Specialist from './components/Specialist';
 
 function App() {
