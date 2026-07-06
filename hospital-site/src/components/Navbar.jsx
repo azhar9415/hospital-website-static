@@ -60,9 +60,9 @@ function Navbar() {
             <li><a href="#contact" className="px-4 py-2 rounded-lg hover:bg-site-bg hover:text-primary active:scale-95 transition-all duration-200 block">Contact</a></li>
           </ul>
 
-          <a href="tel:+919876543210" className="group flex items-center gap-2 bg-primary text-surface px-6 py-2.5 rounded-full font-medium hover:bg-secondary transition-all shadow-sm hover:shadow-lg hover:-translate-y-0.5 active:scale-95">
+          <a href="tel:+919580334242" className="group flex items-center gap-2 bg-primary text-surface px-6 py-2.5 rounded-full font-medium hover:bg-secondary transition-all shadow-sm hover:shadow-lg hover:-translate-y-0.5 active:scale-95">
             <Phone className="w-4 h-4 text-accent" />
-            <span>Call: +91 98765 43210</span>
+            <span>Call: +91 95803 34242</span>
           </a>
         </div>
 
@@ -103,12 +103,12 @@ function Navbar() {
             
             <motion.a 
               variants={linkVariants}
-              href="tel:+919876543210" 
+              href="tel:+919580334242" 
               onClick={closeMenu} 
               className="flex items-center justify-center gap-2 bg-primary text-surface px-6 py-3.5 rounded-full font-medium mt-6 active:scale-95 transition-transform"
             >
               <Phone className="w-5 h-5 text-accent" />
-              <span>Call: +91 98765 43210</span>
+              <span>Call: +91 95803 34242</span>
             </motion.a>
           </motion.div>
         )}

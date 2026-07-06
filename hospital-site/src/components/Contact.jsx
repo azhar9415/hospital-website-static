@@ -52,8 +52,8 @@ function Contact() {
               <div>
                 <h3 className="text-xl font-bold text-heading mb-2">Hospital Timings</h3>
                 <p className="text-body leading-relaxed">
-                  <span className="font-semibold text-heading">Mon - Sat:</span> 9:00 AM - 8:00 PM<br/>
-                  <span className="font-semibold text-heading text-red-600">Sunday:</span> Emergency Services Only
+                  <span className="font-semibold text-heading">Sat - Thur:</span> 10:00 AM - 6:00 PM<br/>
+                  <span className="font-semibold text-heading text-red-600">Friday:</span> Emergency Services Only
                 </p>
               </div>
             </div>
